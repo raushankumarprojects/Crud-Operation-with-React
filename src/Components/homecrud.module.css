@@ -1,0 +1,91 @@
+
+#nav{
+
+    height: 80px;
+    width: 100%;
+
+  justify-content: space-around;
+  display: flex;
+align-items: center;
+}
+#nav a{
+
+text-decoration: none;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+#form{
+   padding-top: 20px;
+    margin-top: 40px;
+ height: 500px;
+ width: 600px;
+ justify-content: center;
+ border: 8px dashed green;
+ /* background-color: rgb(241, 17, 17); */
+}
+#form h1{
+margin-left: 230px;
+margin-bottom: 50px;
+
+}
+
+#form input{
+width: 60%;
+border-top: none;
+border-left: none;
+border-right: none;
+
+}
+#form label {
+   margin: 2px;
+   margin-bottom: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+
+}
+#form button{
+margin-top: 50px;
+margin-left: 170px;
+
+height: 30px;
+width: 150px;
+font-weight: bold;
+color:black;
+border: none;
+border-radius: 4px;
+
+}
+
+
+#userPage{
+    height: 100%;
+    width: 100%;
+
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+flex-wrap: wrap;
+}
+
+#profile{
+    height: 250px;
+    width: 250px;
+  
+    border-radius: 5px;
+    
+ border: 2px solid black;
+    margin: 50px;
+font-weight: bolder;
+
+}
+#profile>table td,th{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#profile button{
+margin: 20px;
+
+}
